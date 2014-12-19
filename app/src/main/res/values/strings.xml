@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, TestActivity!</string>
-    <string name="app_name">在线音乐播放器</string>
+    <string name="app_name">Online Music Player</string>
     <string name="Play">Play</string>
     <string name="Pause">Pause</string>
     <string name="Rewind">Rewind</string>
@@ -23,8 +23,8 @@
     <string name="FileName">File Name:</string>
     <string name="NowDownloading">Now Downloading</string>
     <string name="NowPlaying">Now Playing</string>
-    <string name="DLing">下载</string>
-    <string name="PLing">播放</string>
+    <string name="DLing">Downloading</string>
+    <string name="PLing">Playing</string>
     <string name="All">All</string>
     <string name="Loop">Loop</string>
 
