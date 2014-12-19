@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestActivity!</string>
+    <string name="app_name">在线音乐播放器</string>
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+    <string name="Rewind">Rewind</string>
+    <string name="Forward">Forward</string>
+    <string name="Title">Title</string>
+    <string name="Artist">Artist</string>
+    <string name="Stop">Stop</string>
+    <string name="PauseDownload">Pause Download</string>
+    <string name="CancelDownload">Cancel Download</string>
+    <string name="Album">Album</string>
+    <string name="DownloadStatus">Download Status</string>
+    <string name="zerotime">00:00</string>
+    <string name="Buffering">Buffering</string>
+    <string name="path">path</string>
+    <string name="MusicLoaded">Music Loaded:</string>
+    <string name="Year">Year</string>
+    <string name="DownloadSpeed">Download Speed:</string>
+    <string name="FileName">File Name:</string>
+    <string name="NowDownloading">Now Downloading</string>
+    <string name="NowPlaying">Now Playing</string>
+    <string name="DLing">下载</string>
+    <string name="PLing">播放</string>
+    <string name="All">All</string>
+    <string name="Loop">Loop</string>
+
+</resources>
