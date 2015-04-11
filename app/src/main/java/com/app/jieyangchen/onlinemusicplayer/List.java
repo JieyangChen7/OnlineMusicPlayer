@@ -179,21 +179,21 @@ public class List extends Activity {
 	    
 	    
 	    
-	    protected BroadcastReceiver r=new BroadcastReceiver(){
+    protected BroadcastReceiver r=new BroadcastReceiver(){
 
-			@Override
-			public void onReceive(Context context, Intent intent) {
-				if(intent.getAction().equals("Current")){
-				//	path=intent.getStringExtra("Path");
-					downloadPath=intent.getStringExtra("downloadPath");
-					playingPath=intent.getStringExtra("playingPath");
-					downloadStatus=intent.getIntExtra("downloadStatus",0);
-					isStream=intent.getBooleanExtra("isStream", false);
-					isPlaying=intent.getIntExtra("isPlaying", 2);
-					
-				}
-			}
-	    };
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if(intent.getAction().equals("Current")){
+            //	path=intent.getStringExtra("Path");
+                downloadPath=intent.getStringExtra("downloadPath");
+                playingPath=intent.getStringExtra("playingPath");
+                downloadStatus=intent.getIntExtra("downloadStatus",0);
+                isStream=intent.getBooleanExtra("isStream", false);
+                isPlaying=intent.getIntExtra("isPlaying", 2);
+
+            }
+        }
+    };
 	
 	public void Refresh(){
 		sendBroadcast(new Intent(Intent.ACTION_MEDIA_MOUNTED,
